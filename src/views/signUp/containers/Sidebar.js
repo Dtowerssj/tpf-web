@@ -29,7 +29,7 @@ const Sidebar = () => {
           Service
         </Terms>
         <h4>
-          ¿Ya tienes una cuenta? <span className="gradient__text">Inicia Sesión</span>
+          ¿Ya tienes una cuenta? <span>Inicia Sesión</span>
         </h4>
       </div>
     </Container>
@@ -37,10 +37,12 @@ const Sidebar = () => {
 };
 
 const Terms = styled.p`
+  font-family: var(--font-family);
   padding: 0 1rem;
   text-align: center;
   font-size: 10px;
-  color: #808080;
+  color: #dadde3;
+  //color: #808080;
   font-weight: 300;
 `;
 
@@ -112,8 +114,8 @@ const Container = styled.div`
   justify-content: space-evenly;
   min-width: 464px;
   backdrop-filter: blur(35px);
-  background-color: rgba(4, 12, 24, 0.75);
-  //background-color: rgba(4, 44, 81, 0.5);
+  //background-color: rgba(4, 12, 24, 0.75);
+  background-color: rgba(3, 27, 52, 1);
   height: 100%;
   align-items: center;
   padding: 0 2rem;
@@ -131,7 +133,8 @@ const Container = styled.div`
     margin-top: 2rem;
 
     span {
-      //color: #FE1717;
+      font-weight: 800;
+      color: #FE1717;
       cursor: pointer;
     }
   }

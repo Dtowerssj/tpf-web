@@ -28,7 +28,7 @@ function Navbar() {
         </div>
       </div>
       <div className='navbar-sign'>
-        <p>Iniciar sesión</p>
+        <p><Link to={"signUp"}>Iniciar sesión</Link></p>
         <button type='button' onClick={handleClick}>Registrarse</button>
       </div>
       <div className='navbar-menu'>

@@ -17,6 +17,7 @@ const Input = ({ type, placeholder }) => {
 
 const StyledInput = styled.input`
   width: 80%;
+  font-family: var(--font-family);
   max-width: 350px;
   min-width: 250px;
   height: 40px;
@@ -53,7 +54,7 @@ const Status = styled.div`
     background: #FE1717;
   }
   ${StyledInput}:valid + & {
-    background: linear-gradient(89.97deg, #6b36e7 1.84%, #9092ff 102.67%);
+    background: #32ad10;
   }
 `;
 
