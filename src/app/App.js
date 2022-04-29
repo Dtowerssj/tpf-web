@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home, NotFound, SignUp } from '../views' 
+import { Landing, NotFound, SignUp } from '../views' 
 import "./App.css";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/signUp" element={<SignUp />} />
         {/*<Route path="/home" element={<Home />} />*/}
         <Route path="/*" element={<NotFound />} />

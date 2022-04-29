@@ -24,7 +24,7 @@ const Container = styled.div`
   right: 0;
 `;
 const Wrapper = styled.div`
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bgImg});
+  background-image: linear-gradient(rgba(4, 12, 24, 0.5), rgba(4, 12, 24, 0.5)), url(${bgImg});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

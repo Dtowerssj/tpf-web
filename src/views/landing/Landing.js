@@ -8,9 +8,9 @@ import {
   Header,
 } from "./containers";
 import { CTA, Brand, Navbar } from "../../components";
-import "./home.css";
+import "./landing.css";
 
-const Home = () => {
+const Landing = () => {
   return (
     <div className="App">
       <div className="gradient__bg">
@@ -28,4 +28,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Landing;

@@ -113,6 +113,7 @@ const Container = styled.div`
   min-width: 464px;
   backdrop-filter: blur(35px);
   background-color: rgba(4, 12, 24, 0.75);
+  //background-color: rgba(4, 44, 81, 0.5);
   height: 100%;
   align-items: center;
   padding: 0 2rem;

@@ -19,10 +19,11 @@ function Header() {
   return (
     <div className='header section__padding' id='inicio'>
       <div className='header-content'>
-        <h1 className='gradient__text'>Let&apos;s Build Something amazing with GPT-3 OpenAI</h1> 
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise 
-          blessing. Indulgence way everything joy alteration boisterous the attachment. Party we 
-          years to order allow asked of.</p>
+        <h1 className='gradient__text'>Únete a la mejor academia de trading de latinoamérica</h1> 
+        <p>Aprende a operar como un trader de clase mundial en distintos mercados financieros. 
+          Recibe señales ganadoras para incremetar tus ganancias.
+          Conoce la mejor estrategia para realizar trading institucional. 
+          Sé parte de las mejores clases en vivo para poner en práctica tus conocimientos.</p>
 
         <div className='header-content__input'>
           <input type="email" placeholder='Tu email'></input>
