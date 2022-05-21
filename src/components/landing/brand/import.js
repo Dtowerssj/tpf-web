@@ -4,10 +4,4 @@ import dropbox from '../../../assets/dropbox.png';
 import atlassian from '../../../assets/atlassian.png';
 import shopify from '../../../assets/shopify.png';
 
-export {
-    google,
-    slack,
-    atlassian,
-    dropbox,
-    shopify,
-}
+export { google, slack, atlassian, dropbox, shopify };

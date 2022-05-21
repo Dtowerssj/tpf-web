@@ -1,7 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import App from "./app/App.js";
-import "./index.css";
+import App from './app/App';
+import './index.css';
+import { AuthProvider } from './context/AuthProvider';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+	<AuthProvider>
+		<App />
+	</AuthProvider>,
+	document.getElementById('root')
+);

@@ -1,0 +1,9 @@
+{
+	"useTabs": true,
+	"semi": true,
+	"endOfLine": "auto",
+	"tabWidth": 2,
+	"arrowParens": "avoid",
+	"singleQuote": true,
+	"jsxSingleQuote": true
+}

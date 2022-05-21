@@ -1,19 +1,26 @@
-import React from "react";
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Landing, NotFound, SignUp } from '../views' 
-import "./App.css";
+import { Landing, NotFound, Auth, Home } from '../views';
+import Settings from '../views/home/containers/settings/Settings';
+import Course from '../views/home/containers/course/Course';
+import './App.css';
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/signUp" element={<SignUp />} />
-        {/*<Route path="/home" element={<Home />} />*/}
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
+const App = () => (
+	<div className='App'>
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<Landing />} />
+				<Route path='signUp' element={<Auth type='signUp' />} />
+				<Route path='signIn' element={<Auth type='signIn' />} />
+				<Route path='home/' element={<Home />}>
+					<Route path='settings' component={<Settings />} />
+					<Route path='course' element={<Course />} />
+				</Route>
+				<Route path='/*' element={<NotFound />} />
+			</Routes>
+		</BrowserRouter>
+	</div>
+);
 
 export default App;

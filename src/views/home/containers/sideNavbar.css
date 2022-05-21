@@ -1,0 +1,37 @@
+.sidenav {
+	width: 240px;
+	background: var(--color-blog);
+	position: absolute;
+	height: 95vh;
+	padding: 0 30px;
+	left: -100%;
+	transition: all 0.3s;
+}
+
+.sidenav.active {
+	left: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	margin: 10px 0;
+}
+
+ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	padding: 10px 15px;
+	border-radius: 6px;
+	font-family: var(--font-family);
+}
+
+ul li a:hover,
+ul li a.active {
+	background: var(--color-footer);
+}
