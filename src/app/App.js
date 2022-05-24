@@ -13,10 +13,9 @@ const App = () => (
 				<Route path='/' element={<Landing />} />
 				<Route path='signUp' element={<Auth type='signUp' />} />
 				<Route path='signIn' element={<Auth type='signIn' />} />
-				<Route path='home/' element={<Home />}>
-					<Route path='settings' component={<Settings />} />
-					<Route path='course' element={<Course />} />
-				</Route>
+				<Route path='home/' element={<Home />} />
+				<Route path='home/settings' element={<Settings />} />
+				<Route path='home/course' element={<Course />} />
 				<Route path='/*' element={<NotFound />} />
 			</Routes>
 		</BrowserRouter>

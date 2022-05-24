@@ -1,5 +1,6 @@
 import React from 'react';
+import './course.css';
 
-const Course = () => <div>Course</div>;
+const Course = () => <div className='main'>Courses</div>;
 
 export default Course;

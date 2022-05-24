@@ -3,13 +3,27 @@
 	background: var(--color-blog);
 	position: absolute;
 	height: 95vh;
-	padding: 0 30px;
+	padding: 0 15px;
 	left: -100%;
 	transition: all 0.3s;
 }
 
 .sidenav.active {
 	left: 0;
+}
+
+.link-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.link-container svg {
+	display: flex;
+	color: #fff;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 0px;
 }
 
 ul {
