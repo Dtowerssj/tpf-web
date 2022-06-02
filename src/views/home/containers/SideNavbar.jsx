@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { IoMdSettings } from 'react-icons/io';
 import { ImBook } from 'react-icons/im';
 import './sideNavbar.css';
@@ -20,7 +20,7 @@ const SideNavbar = ({ show }) => (
 				</Link>
 			</li>
 		</ul>
-		<Outlet />
+		
 	</nav>
 );
 

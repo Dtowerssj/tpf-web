@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { Outlet } from 'react-router-dom';
 /*
-import { Route } from 'react-router-dom';
+
 import Settings from './containers/settings/Settings';
 import Course from './containers/course/Course';
 */
@@ -23,6 +24,7 @@ const Home = () => {
 				</div>
 			</header>
 			<SideNavbar show={showSideNav} />
+			<Outlet />
 		</div>
 	);
 };

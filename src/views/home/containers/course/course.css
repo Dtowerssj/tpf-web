@@ -1,7 +1,20 @@
-.main {
-	height: 90vh;
+.course-container {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: flex-start;
 	align-items: center;
-	font-size: 40px;
+}
+
+.course-list-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 80px;
+	padding: 0px 30px;
+	font-family: var(--font-family);
+	font-size: 1.7rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	background-color: #fff;
 }
